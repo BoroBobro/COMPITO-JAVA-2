@@ -6,7 +6,7 @@ public class StringaDivisa {
         String input;
 
         while (true) {
-            System.out.print("Inserisci una stringa (\":q\" per uscire): ");
+            System.out.println("Inserisci una stringa (\":q\" per uscire): ");
             input = scanner.nextLine();
 
 
@@ -19,7 +19,7 @@ public class StringaDivisa {
             for (int i = 0; i < input.length(); i++) {
                 System.out.print(input.charAt(i));
                 if (i < input.length() - 1) {
-                    System.out.print(", ");
+                    System.out.println(", ");
                 }
             }
             System.out.println();
